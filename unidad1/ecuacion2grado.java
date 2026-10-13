@@ -19,5 +19,6 @@ public class ecuacion2grado {
         resultado1 = ((0 - b + (Math.sqrt((b * b) - 4 * a * c))) / (2 * a));
         resultado2 = ((0 + b + (Math.sqrt((b * b) - 4 * a * c))) / (2 * a));
         System.out.println("los resultados son " + resultado1 + " y " + resultado2);
+        teclado.close();
     }
 }

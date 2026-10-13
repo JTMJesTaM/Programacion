@@ -10,5 +10,6 @@ public class areacirculo {
         float radio = keyboard.nextFloat();
         resultado = (float) Math.PI * radio * radio;
         System.out.println(resultado);
+        keyboard.close();
     }
 }

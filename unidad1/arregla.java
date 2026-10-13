@@ -12,5 +12,6 @@ public class arregla {
         numero2 = teclado.nextInt();
         numero3 = teclado.nextInt();
         System.out.println("La media es: " + ((numero1 + numero2 + numero3) / 3));
+        teclado.close();
     }
 }

@@ -15,5 +15,6 @@ public class Hacienda {
         dinero = sueldo - hacienda;
         System.out.println("Cobras " + sueldo + " pero hacienda se lleva " + hacienda
                 + " por lo cual te quedan unos miseros " + dinero);
+        keyboard.close();
     }
 }
