@@ -2,7 +2,7 @@ package unidad1;
 
 import java.util.Scanner;
 
-public class a {
+public class gamblin {
     public static void main(String[] args) {
         int apuesta = 0, dinero = 5;
         Scanner teclado = new Scanner(System.in);
