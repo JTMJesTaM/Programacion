@@ -17,6 +17,8 @@ public class gamblin {
                 System.out.println("Que haces? vuelve a apostar, anda");
                 apuesta = teclado.nextInt();
             }
+            if (apuesta == 67)
+                System.out.println("jaja 67");
             // Tiramos los dados aleatoriamente y sumamos
             dado1 = (int) (Math.random() * 6) + 1;
             dado2 = (int) (Math.random() * 6) + 1;
