@@ -2,7 +2,7 @@ package unidad2;
 
 import java.util.Scanner;
 
-public class Ejerciciopares {
+public class EjercicioPares {
     public static void main(String[] args) {
         /*
          * Contar todos los numeros pares hasta el numero que se intoduzca o el 100
