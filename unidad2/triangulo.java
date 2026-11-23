@@ -11,7 +11,7 @@ public class triangulo {
         int lado2 = Integer.parseInt(sc.nextLine());
         System.out.print("Escribe el tercer lado del triángulo: ");
         int lado3 = Integer.parseInt(sc.nextLine());
-        if ((lado1 + lado2 > lado3) || (lado2 + lado3 > lado1) || (lado3 + lado1 > lado2)) {
+        if ((lado1 + lado2 > lado3) && (lado2 + lado3 > lado1) && (lado3 + lado1 > lado2)) {
             System.out.println("Es un triángulo.");
             if (lado1 == lado2 && lado2 == lado3)
                 System.out.println("Es equilátero.");
